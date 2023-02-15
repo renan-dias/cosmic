@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "319475303551",
+    "project_id": "cosmic-95899",
+    "storage_bucket": "cosmic-95899.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319475303551:android:6a8cd990227f415eaf6b4a",
+        "android_client_info": {
+          "package_name": "com.bagdonas.cosmic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319475303551-0bd1tausqi2hondr82a0p0oqbjl7uqfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bagdonas.cosmic",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "319475303551-s5b3nlg96mptv76aaragnmcsfpsifh48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVPtg-c6i__FzcQxhMrBmQYDt9FTaLQr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319475303551-s5b3nlg96mptv76aaragnmcsfpsifh48.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "319475303551-dnk7rji8v7vlafbgboud77pe46fs1ohu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bagdonas.cosmic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Cosmic">
+
+  <meta name="description" content="COSMIC é um jogo educativo em que você assume o papel de personagens históricos da cosmologia na primeira metade do século XX, aprendendo conceitos complexos de maneira divertida e interativa. Descubra como o COSMIC pode ajudá-lo a aprimorar seus conhecimentos sobre a história da ciência e da cosmologia.">
+<meta name="keywords" content="COSMIC, jogo educativo, cosmologia, história da ciência, ciência do século XX, personagens históricos, aprendizado interativo">
+<meta name="author" content="Programa de Pós-Graduação Interunidades em Ensino de Ciências da USP">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="COSMIC: um jogo educativo de cosmologia e história da ciência do século XX">
+<meta property="og:description" content="COSMIC é um jogo educativo em que você assume o papel de personagens históricos da cosmologia na primeira metade do século XX, aprendendo conceitos complexos de maneira divertida e interativa. Descubra como o COSMIC pode ajudá-lo a aprimorar seus conhecimentos sobre a história da ciência e da cosmologia.">
+<meta property="og:url" content="cosmic.web.app">
+<meta property="og:type" content="website">
+
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" sizes="any"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png">
+  
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="Cosmic" />
+  <meta property="og:description" content="O COSMIC é um jogo educativo que permite que você atue como personagens históricos da cosmologia no século XX, aprendendo sobre a história da ciência e da cosmologia de forma divertida e interativa." />
+  <meta property="og:image" content="cosmic_web_image.png" /> 
+  <meta name="twitter:title" content="Cosmic" />
+  <meta name="twitter:description" content="O COSMIC é um jogo educativo que permite que você atue como personagens históricos da cosmologia no século XX, aprendendo sobre a história da ciência e da cosmologia de forma divertida e interativa." />
+  <meta name="twitter:image" content="cosmic_web_image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> Cosmic </title>
+  <meta name="description" content="O COSMIC é um jogo educativo que permite que você atue como personagens históricos da cosmologia no século XX, aprendendo sobre a história da ciência e da cosmologia de forma divertida e interativa." />
+    
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+    
+  </script>
+  
+  
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

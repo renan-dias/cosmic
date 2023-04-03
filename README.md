@@ -1,31 +1,24 @@
-# Cosmic
 
-A new Flutter project.
+# Cosmic - Um jogo sobre a cosmologia no século XX
 
-## Getting Started
+Cosmic é um jogo educativo que aborda a cosmologia do século XX de uma forma social e interativa. Com o objetivo de ensinar não só conteúdos científicos, mas também discutir sobre a natureza da ciência, o Cosmic promove a formação de cidadãos críticos, estimulando debates e questionamentos sobre o valor atribuído à ciência.
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+## Revisão de debates
+A importância do estudo de episódios da história da ciência como forma de ensinar não só conteúdos científicos, mas também discutir sobre a chamada “natureza da ciência” têm sido amplamente defendidas por pesquisadores do ensino de ciências há muito tempo. No entanto, há divergências no modo como educadores, cientistas, historiadores, filósofos e sociólogos pensam ser a visão adequada sobre a ciência a ser apresentada às gerações futuras.
 
-### IMPORTANT:
+Na chamada “Guerra das Ciências”, cientistas naturais se opuseram ao questionamento da autoridade da ciência em estudos realizados nas áreas da história, da filosofia e principalmente da sociologia das ciências. No Cosmic, defendemos que, ao invés de evitar aspectos controversos na educação básica, uma abordagem filosófica pluralista é mais adequada para formar cidadãos críticos.
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+## Objetivo do jogo
+O Cosmic foi elaborado por um grupo de pesquisadores do ensino de física e professores do ensino médio, com o objetivo de fazer uso de episódios da história da cosmologia para estimular debates sobre o valor atribuído pelos alunos à ciência, dando espaço para a discussão de questões prescritivas, não só sobre o que a ciência tem sido, mas sobre o que ela pode, poderia ou deveria ser.
 
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
+## Tecnologias utilizadas
+O Cosmic é desenvolvido em Flutter, um framework de aplicativos móveis de código aberto, que permite a criação de aplicativos para iOS, Android, desktop e web. Além disso, ele conta com a integração com APIs e acesso ao banco de dados, permitindo uma experiência mais completa e interativa para o usuário.
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
 
-### Getting started continued:
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Documentação
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Documentação do cosmic (em breve)](#)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Documentação ao professor (em breve)](#)
